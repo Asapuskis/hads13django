@@ -1,0 +1,11 @@
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\bin\Microsoft.PythonTools.WebRole.dll
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\attach_server.py
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\visualstudio_py_debugger.py
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\visualstudio_py_repl.py
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\visualstudio_py_util.py
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\__init__.py
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\__main__.py
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\deployment-updated-pyvenv.cfg
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\ptvs_virtualenv_proxy.py
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\web.config
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\web.debug.config

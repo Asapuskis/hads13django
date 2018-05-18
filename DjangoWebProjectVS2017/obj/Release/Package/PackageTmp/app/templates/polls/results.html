@@ -1,0 +1,30 @@
+﻿{% extends "app/layout.html" %}
+{% block content %}
+
+<h2>{{ title }}</h2>
+<h3>{{ message }}</h3>
+
+<h1>{{ question.question_text }}</h1>
+
+<h3>Usted marcó: {{ choice.choice_text }}</h3>
+{% for c in question.choice_set.all %}
+    {% if c.correct is True %}
+        {% if choice.choice_text == c.choice_text %}
+            <h3>Has acertado!!</h3>
+        {% else %}
+            <h3>Has fallado! Respuesta correcta: {{c.choice_text}}</h3>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+
+<ul>
+{% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+{% endfor %}
+</ul>
+
+<a href="{% url 'chart' question.id %}"> Ver grafica</a><br />
+<a href="{% url 'index' %}">Contestar otra pregunta?</a>
+
+{% endblock %}

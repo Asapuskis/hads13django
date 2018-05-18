@@ -1,0 +1,37 @@
+﻿{% extends "app/layout.html" %}
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+{% if request.user.is_authenticated %}
+    {% if latest_question_list %}
+        <ul>
+        {% for question in latest_question_list %}
+            <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
+        {% endfor %}
+        </ul>
+  
+    {% else %}
+        <p>No polls are available.</p>
+    {% endif %}
+
+    <a href="{% url 'add' %}"><h2>Insertar pregunta</h2></a> 
+{% else %}
+    <h3>Seleccione un tema de la lista: </h3>
+    <form method = "post" action = "{% url 'verPreguntasTema' %}">{% csrf_token %}
+        {% if latest_question_list %}
+            <select name="dropList">
+                {% for tema in temas %}
+                    <option value="{{ tema.tema }}"> {{ tema.tema }}</option>
+                {% endfor %}
+            </select>  
+        {% else %}
+            <p>No polls are available.</p>
+        {% endif %}
+        <input  type = "submit" value="Submit">
+    </form>
+
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,35 @@
+﻿{% extends "app/layout.html" %}
+{% block content %}
+
+<h2>{{ title }}</h2>
+<h3>{{ message }}</h3>
+{% csrf_token %}
+
+{% if request.user.is_authenticated %}
+    {% if listaObjectos %}
+        <ul>
+        {% for question in listaObjectos %}
+            <li><h4><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></h4></li>
+
+            {% for choice in question.choice_set.all %}
+                {% if choice.correct == 1 %}
+                    <label>{{ choice.choice_text }}</label> {{ choice.votes }} <br />
+                {% else %}
+                    {{ choice.choice_text }} {{ choice.votes }}<br />
+                {% endif %}
+            {% endfor %}
+
+        {% endfor %}
+        </ul>
+  
+    {% else %}
+        <p>No polls are available.</p>
+    {% endif %}
+{% else %}
+    {% for question in listaObjectos %}
+        <h4><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></h4>
+    {% endfor %}
+{% endif %}
+
+
+{% endblock %}

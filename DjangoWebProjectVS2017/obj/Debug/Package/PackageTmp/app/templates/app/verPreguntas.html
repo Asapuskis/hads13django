@@ -1,0 +1,21 @@
+﻿{% extends "app/layout.html" %}
+{% block content %}
+
+<h2>{{ title }}</h2>
+<h3>{{ message }}</h3>
+
+<form method = "post" action = "{% url 'verPreguntasTema' %}">{% csrf_token %}
+    {% if latest_question_list %}
+        <select name="dropList">
+            {% for tema in temas %}
+                <option value="{{ tema.tema }}"> {{ tema.tema }}</option>
+            {% endfor %}
+        </select>
+  
+    {% else %}
+        <p>No polls are available.</p>
+    {% endif %}
+<input  type = "submit" value="Submit">
+</form>
+
+{% endblock %}

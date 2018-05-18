@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\Package\PackageTmp" managedRuntimeVersion="v4.0" />
+  <setAcl path="U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

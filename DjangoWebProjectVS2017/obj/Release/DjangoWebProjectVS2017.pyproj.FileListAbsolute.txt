@@ -1,0 +1,4 @@
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Release\deployment-updated-pyvenv.cfg
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\ptvs_virtualenv_proxy.py
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Release\web.config
+U:\Apuntes\ing inf\4º\HADS\Proyectos Django\DjangoWebProjectVS2017\DjangoWebProjectVS2017\DjangoWebProjectVS2017\obj\Release\web.debug.config
